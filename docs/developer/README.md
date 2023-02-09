@@ -23,16 +23,13 @@ A thorough understanding of the developed AI model.
 
 # Part 2: DEVELOPED AI MODEL
 
-## Step 1.
-> Clone this repository: lien github
+## Step 1. Clone this repository: lien github
 
-## Step 2. 
-> Create a new virtual environment 
+## Step 2. Create a new virtual environment 
 
 python -m venv tfod
 
-## Step 3. 
-> Activate your virtual environment 
+## Step 3. Activate your virtual environment 
 
     source tfod/bin/activate # Linux
     .\tfod\Scripts\activate # Windows 
