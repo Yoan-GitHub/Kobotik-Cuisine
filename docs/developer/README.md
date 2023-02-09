@@ -19,12 +19,11 @@ If you have the preceding prerequisites, you are ready to start the project. The
 A hands-on approach to the KOBOTIK Cuisine robot.
 A thorough understanding of the developed AI model.
 
-# Part 1: HANDS-ON APPROACH TO THE ROBOT
+# Part 1: * HANDS-ON APPROACH TO THE ROBOT * 
 
 # Part 2: DEVELOPED AI MODEL
 
-## Step 1. 
-> Clone this repository: lien github
+## Step 1. Clone this repository: lien github
 
 ## Step 2. 
 > Create a new virtual environment 
