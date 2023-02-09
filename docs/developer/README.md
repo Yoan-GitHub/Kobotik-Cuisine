@@ -19,55 +19,55 @@ If you have the preceding prerequisites, you are ready to start the project. The
 A hands-on approach to the KOBOTIK Cuisine robot.
 A thorough understanding of the developed AI model.
 
-# Part 1: * HANDS-ON APPROACH TO THE ROBOT * 
+# Part 1:  HANDS-ON APPROACH TO THE ROBOT 
 
 # Part 2: DEVELOPED AI MODEL
 
-## Step 1. Clone this repository: lien github
+### Step 1. *Clone this repository: lien github*
 
-## Step 2. 
+### Step 2. 
 > Create a new virtual environment 
 
 python -m venv tfod
 
-## Step 3. 
+### Step 3. 
 > Activate your virtual environment 
 
     source tfod/bin/activate # Linux
     .\tfod\Scripts\activate # Windows 
 
 
- ## Step 4. 
+ ### Step 4. 
  > Install dependencies and add virtual environment to the Python Kernel 
  
     python -m pip install --upgrade pip
     pip install ipykernel
     python -m ipykernel install --user --name=tfod
 
-## Step 5. 
+### Step 5. 
 > Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment as shown below ( screen )
 
 
 
-## Step 6. 
+### Step 6. 
 > Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders.
     \TFODCourse\Tensorflow\workspace\images\train
     \TFODCourse\Tensorflow\workspace\images\test 
 
 
-## Step 7. 
+### Step 7. 
 > Begin training process by opening 2. Training and Detection.ipynb, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. 
 
 
-## Step 8. 
+### Step 8. 
 > During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK. (screen)
 
 
-## Step 9. 
+### Step 9. 
 > Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. We noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. (screen)
 
 
-## Step 10. 
+### Step 10. 
 > You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 
     cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
