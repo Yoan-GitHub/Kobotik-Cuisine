@@ -28,6 +28,8 @@ The resolution approach we developed allows the robot to learn to recognize any 
 ## 🔎 Implemented approch
 
 Our resolution approach first consists of creating a **database of ingredient images** which will then be used to test the **developed ingredient recognition algorithm** which is outlined in the [👨‍💻 Developer documentation](docs/developer).
+The the diagram below summarizes our approach : 
+<img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/704aa8aea76aef0997a5e6bc237556549bd24d02/assets/img/UML_KOBOTIK_cuisine.png">
 
 ## 📈 Analysis of results
 
