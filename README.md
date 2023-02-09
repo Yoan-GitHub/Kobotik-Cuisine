@@ -19,10 +19,10 @@ The neural network will then be used with the cobot to prepare a salad.
 
 |       |        |
 |:----------------------------:|:-----------------------------------------------------------------------:|
-| 💼 **Client**                |  Name of your Client *(1)*                                              |
-| 🔒 **Confidentiality**       | **Public** or **Private** *(1)*                                         |
+| 💼 **Client**                |  Kobotik                                              |
+| 🔒 **Confidentiality**       |  Public                                         |
 | ⚖️ **License**               |  [Choose a license](https://choosealicense.com/) *(1)*                  |
-| 👨‍👨‍👦 **Authors**               |  Student names, with a link to their social media profile or website    |
+| 👨‍👨‍👦 **Authors**               |  Laaroussi Fatima Azzahrae and Nguyen van ho Yoan, https://github.com/fatimazzahrae and https://github.com/Yoan-GitHub    |
 
 
 *(1) Refer to your client to make a choice. Then update the repository accordingly: the visibility in the settings and replace the [LICENSE](./LICENSE) file.*
