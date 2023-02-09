@@ -40,13 +40,13 @@ By executing the following command in _**Tensorflow/workspace/models/my_ssd_mobn
 We obtain a http://localhost:6006/ link in the terminal which allows access to the model evaluation results.
 
 > We then have the loss, precision, and recall function curves which are presented below :
-**- Our loss function evolution for 5000 epochs:**
+> **Our loss function evolution for 5000 epochs:**
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/loss_5000epochs.png">
 
-**- Our precision function evolution for 5000 epochs:**
+> **Our precision function evolution for 5000 epochs:**
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/precision.png">
 
-**- Our recall function evolution for 5000 epochs:**
+> **Our recall function evolution for 5000 epochs:**
 <img src ="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/recall.png">
 
 Draw conclusions, **interpret** the results and make recommandations to your client for your future of the work.
