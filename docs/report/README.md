@@ -53,12 +53,15 @@ We obtain a http://localhost:6006/ link in the terminal which allows access to t
 To concretely **visualize the results** of our algorithm, we show the detections made on different ingredient images (in this case, we have the two classes "lettuce"(_laitue_) and "pasta"(_pates_)).
 
 > Pour une image centrée et donc relativement facile de pates: 
+
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/pates_centree.png">
 
 > Pour une image décalée et donc relativement difficile de pates:
+
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/pates_difficile.png">
 
 > Pour une image de laitue et de pates: 
+
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/eval_pic.png">
 
 
