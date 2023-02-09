@@ -27,7 +27,7 @@ The resolution approach we developed allows the robot to learn to recognize any 
 
 ## 🔎 Implemented approch
 
-Notre approche de résolution consiste dans un premier lieu à **créer une base de données d'images d'ingrédients** qui servira, dans un deuxième lieu, à tester l'algorithme développé de **reconnaissance d'ingrédients** qui est détaillé dans la partie [👨‍💻 Developer documentation](docs/developer).
+Our resolution approach first consists of creating a **database of ingredient images** which will then be used to test the **developed ingredient recognition algorithm** which is outlined in the [👨‍💻 Developer documentation](docs/developer).
 
 ## 📈 Analysis of results
 
