@@ -58,12 +58,12 @@ A thorough understanding of the developed AI model.
 
 ### Step 8. Install Tensorflow Object Detection
 > During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.
-< img src = "https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/cd755a6e66f666d9b8f008723c51ab7df681ec70/assets/img/step8.png">
+<img src = "https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/cd755a6e66f666d9b8f008723c51ab7df681ec70/assets/img/step8.png">
 
 
 ### Step 9. Train the model
 > Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. We noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
-< img src = "https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/cd755a6e66f666d9b8f008723c51ab7df681ec70/assets/img/step9.png">
+<img src = "https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/cd755a6e66f666d9b8f008723c51ab7df681ec70/assets/img/step9.png">
 
 
 ### Step 10. Evaluate the model
