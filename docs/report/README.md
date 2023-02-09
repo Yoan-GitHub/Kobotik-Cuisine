@@ -49,5 +49,5 @@ We obtain a http://localhost:6006/ link in the terminal which allows access to t
 > **Our recall function evolution for 5000 epochs:**
 <img src ="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/recall.png">
 
-###_These values are good and reflect the performance of our model_.
+### _These values are good and reflect the performance of our model_.
 To concretely **visualize the results** of our algorithm, we show the detections made on different ingredient images (in this case, we have the two classes "lettuce"(_laitue_) and "pasta"(_pates_)).
