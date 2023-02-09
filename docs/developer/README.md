@@ -59,7 +59,7 @@ Then run the program.
 
 # Part 2: DEVELOPED AI MODEL
 
-### Step 1. Clone this repository: lien github
+### Step 1. Clone this repository: https://github.com/Yoan-GitHub/Kobotik-Cuisine
 
 ### Step 2.  Create a new virtual environment 
 
