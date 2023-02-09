@@ -2,7 +2,7 @@
 
 **Description:** Building a neural network to identify different ingredients. 
 
-<img src="https://via.placeholder.com/900x300.png?text=Video+illustrating+your+project,+or+picture"> 
+<img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/main/assets/img/Screenshot%20from%202023-02-08%2001-52-59.png"> 
 
 [📖 User documentation](docs/user) • [👨‍💻 Developer documentation](docs/developer) • [📈 Project report](docs/report) • [📚 Bibliography](docs/bibliography) • [⚠️ Risk Analysis](docs/risk)
   
