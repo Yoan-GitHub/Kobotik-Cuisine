@@ -1,15 +1,15 @@
 # 📖 Developer documentation
 
-## ⁉️ Purpose of this documentation
+## Purpose of this documentation
 
 Welcome to the documentation for the "KOBOTIK Cuisine" project. This guide is designed specifically for future developers who will be reusing and building upon the work done here. As a fellow developer with the same skill set, we understand the importance of clear and comprehensive documentation. Our aim with this guide is to provide you with a thorough understanding of the code structure and how it can be easily extended to add new features. Whether you are a student taking over from where we left off, or simply interested in using this project as a starting point for your own work, we hope that this documentation will be a valuable resource for you.
 
-## ⁉️ Do we really need to feed this section? 
+## Do we really need to feed this section? 
 
 Maybe not, if your project does not include code or if it is trivial. If so, drop the section and the links.
 
 
-## ⁉️ What is expected here
+## What is expected here
 
 This project was proposed to us as part of our Robotics and AI option within our ENSEIRB-Matmeca engineering school. The goal is to train ourselves in new technologies while building on the knowledge already acquired in robotics and AI development. To successfully continue this project, the following foundations are required: good knowledge of the Python language and the functioning of a supervised learning neural network. A computer, camera, and ingredients must also be available.
 
