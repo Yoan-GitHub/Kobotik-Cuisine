@@ -35,17 +35,17 @@ Kook up with the cobot. Choose the program to run. Enter the cobot ip address : 
 
 If you use a realsense camera, start the video acquisition at the same time as the program. Once the program is finished, a .bag file is created. To convert it to a folder containing the images, go to this link https://github.com/IntelRealSense/librealsense/releases/tag/v2.50.0 then downloading and running the installer file Intel.RealSense.SDK-WIN10. Open Command Prompt window,go to the Tools folder which the rs-convert is located.
 
-cd C://Program Files (x86)/Intel RealSense SDK 2.0/Tools
+     cd C://Program Files (x86)/Intel RealSense SDK 2.0/Tools
 
 Input the rs-convert conversion command : 
 
-rs-convert.exe -i "YOUR_BAG_FILE_DIR\example.bag" -v "DIR_FOR_THE_CONVERTED_FILE"
+     rs-convert.exe -i "YOUR_BAG_FILE_DIR\example.bag" -v "DIR_FOR_THE_CONVERTED_FILE"
 
 ### Step 3 bis. To take ingredients with the program mouvement_robot :
 
 Install the gripper on the cobot and put a spoon between the claws. Have two bins and a bowl like this : 
 
-![image](https://user-images.githubusercontent.com/81220020/217786917-76775964-df82-48db-b92a-cacf8b029d15.png)
+     ![image](https://user-images.githubusercontent.com/81220020/217786917-76775964-df82-48db-b92a-cacf8b029d15.png)
 
 Change the id to 1 if you want the cobot go to the first bin and change the id to 2 if you want the cobot go to second bin.
 
