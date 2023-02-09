@@ -20,10 +20,10 @@ The project therefore consists first and foremost in validating whether it is po
 
 To obtain the exact position of the center of the bowl that contains the ingredient we are interested in, we have the Intel RealSense camera (provided by our tutor) which gives us the coordinates of the point we want in real-time. We have decided that the best location for the camera within the robot mechanism would be in the center facing the ingredients.
 
+To achieve this, we developed an ingredient recognition algorithm based on the **TensorFlow library for object detection**, which allows the robot to recognize the ingredients given by the user to prepare a salad completely _autonomously_.
 
-Describe what is the **input** of your project, such as existing software or hardware you will rely on, and their maturity if they are ongoing work.
-
-Describe what is the **expected output** of your project. Make sure that your contribution to this project is explicit.
+### Is this work necessary?
+The resolution approach we developed allows the robot to learn to recognize any ingredient provided by the user, based solely on a database of images of that food. **While several food recognition solutions are already available as open source on the web, these solutions are not trained on specific ingredients and are more generic. On the other hand, our solution is specific to our case and allows the cook robot to recognize any food, in stainless steel bins.**
 
 ## 🔎 Implemented approch
 
