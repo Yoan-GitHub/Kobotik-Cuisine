@@ -16,12 +16,12 @@ This project was proposed to us as part of our Robotics and AI option within our
 
 If you have the preceding prerequisites, you are ready to start the project. The following documentation is divided into two major parts:
 
-    A hands-on approach to the KOBOTIK Cuisine robot.
-    A thorough understanding of the developed AI model.
+A hands-on approach to the KOBOTIK Cuisine robot.
+A thorough understanding of the developed AI model.
 
-Part 1: HANDS-ON APPROACH TO THE ROBOT
+##Part 1: HANDS-ON APPROACH TO THE ROBOT
 
-Part 2: DEVELOPED AI MODEL
+##Part 2: DEVELOPED AI MODEL
 
 Step 1. Clone this repository: lien github
 
@@ -31,23 +31,23 @@ python -m venv tfod
 
 Step 3. Activate your virtual environment 
 
-source tfod/bin/activate # Linux
-.\tfod\Scripts\activate # Windows 
+    source tfod/bin/activate # Linux
+    .\tfod\Scripts\activate # Windows 
 
 
  Step 4. Install dependencies and add virtual environment to the Python Kernel 
  
- python -m pip install --upgrade pip
-pip install ipykernel
-python -m ipykernel install --user --name=tfod
+    python -m pip install --upgrade pip
+    pip install ipykernel
+    python -m ipykernel install --user --name=tfod
 
 Step 5. Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment as shown below ( screen )
 
 
 
 Step 6. Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders.
-\TFODCourse\Tensorflow\workspace\images\train
-\TFODCourse\Tensorflow\workspace\images\test 
+    \TFODCourse\Tensorflow\workspace\images\train
+    \TFODCourse\Tensorflow\workspace\images\test 
 
 
 Step 7. Begin training process by opening 2. Training and Detection.ipynb, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. 
@@ -61,10 +61,10 @@ Step 9. Once you get to step 6. Train the model, inside of the notebook, you may
 
 Step 10. You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 
- cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
+    cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
  
 and open Tensorboard with the following command 
- tensorboard --logdir=. 
+    tensorboard --logdir=. 
  
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall. (screen)
 
