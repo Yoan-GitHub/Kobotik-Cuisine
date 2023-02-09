@@ -21,7 +21,7 @@ A thorough understanding of the developed AI model.
 
 # Part 1:  HANDS-ON APPROACH TO THE ROBOT 
 
-### Step 1. Clone this repository: lien github
+### Step 1. Clone this repository: https://github.com/Yoan-GitHub/Kobotik-Cuisine
 
 ### Step 2.  Connect to the cobot  
 
