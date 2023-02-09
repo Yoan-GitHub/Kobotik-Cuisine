@@ -66,5 +66,11 @@ To concretely **visualize the results** of our algorithm, we show the detections
 
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/eval_pic.png">
 
+**REMARK :**
+> _We move from 2000 to 5000 epochs in order to not only improve the ingredient detection precision percentage but also to correct some errors that arise, as in the image below:_
+<img src ="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/erreur2000_corrigee5000.png">
 
+> **This increase in the number of epochs has improved the performance of our model.**
 
+### Advice to the user
+Depending on the ingredients you have and the number and quality of photos taken by your camera during the image collection phase, the performance of this model may vary. If it's better, then great, otherwise, **increasing the number of epochs during the model's training phase** described in the [👨‍💻 Developer documentation](docs/developer) can **correct this problem**.
