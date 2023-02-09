@@ -23,7 +23,7 @@ Part 1: HANDS-ON APPROACH TO THE ROBOT
 
 Part 2: DEVELOPED AI MODEL
 
-Step 1. Clone this repository: https://github.com/nicknochnack/TFODCourse
+Step 1. Clone this repository: lien github
 
 Step 2. Create a new virtual environment 
 
