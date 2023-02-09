@@ -21,19 +21,17 @@ A thorough understanding of the developed AI model.
 
 # Part 1:  HANDS-ON APPROACH TO THE ROBOT 
 
-### Step 1. Clone this repository: https://github.com/Yoan-GitHub/Kobotik-Cuisine
-
-### Step 2.  Connect to the cobot  
+### Step 1.  Connect to the cobot  
 
 Kook up with the cobot. Choose the program to run. Enter the cobot ip address : <img width="306" alt="image" src="https://user-images.githubusercontent.com/81220020/217781328-fddea825-b347-4ced-8362-eaa83f347ab0.png">
 
-### Step 3. Install dependencies  
+### Step 2. Install dependencies  
 
      git clone git@github.com:xArm-Developer/xArm-Python-SDK.git
      cd xArm-Python-SDK
      python setup.py install
 
-### Step 4. To obtain images with the program rotation_cobot :
+### Step 3. To obtain images with the program rotation_cobot :
 
 If you use a realsense camera, start the video acquisition at the same time as the program. Once the program is finished, a .bag file is created. To convert it to a folder containing the images, go to this link https://github.com/IntelRealSense/librealsense/releases/tag/v2.50.0 then downloading and running the installer file Intel.RealSense.SDK-WIN10. Open Command Prompt window,go to the Tools folder which the rs-convert is located.
 
@@ -43,7 +41,7 @@ Input the rs-convert conversion command :
 
 rs-convert.exe -i "YOUR_BAG_FILE_DIR\example.bag" -v "DIR_FOR_THE_CONVERTED_FILE"
 
-### Step 4 bis. To take ingredients with the program mouvement_robot :
+### Step 3 bis. To take ingredients with the program mouvement_robot :
 
 Install the gripper on the cobot and put a spoon between the claws. Have two bins and a bowl like this : 
 
