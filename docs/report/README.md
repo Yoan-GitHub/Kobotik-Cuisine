@@ -33,11 +33,21 @@ The the diagram below summarizes our approach :
 
 ## 📈 Analysis of results
 
-**Qualify** and **quantify** your achievements. Make measurements from your work, e.g.:
+By executing the following command in Tensorflow/workspace/models/my_ssd_mobnet/eval :
 
-* **User tests**: Setup a methodology to test the efficiency of your project against users. It may use pre-experiment and post-experiment questionnaires. The most users the better to draw meaningful conclusions from your experiments. Radar diagrams are good to summarize such results.
-* **Table of data**: Provide (short) extracts of data and relevant statistics (distribution, mean, standard deviation, p-values...)
-* **Plots**: Most data are more demonstrative when represented as plots. 
+    tensorboard --logdir=.
+
+We obtain a http://localhost:6006/ link in the terminal which allows access to the model evaluation results.
+
+> We then have the loss, precision, and recall function curves which are presented below :
+**- Our loss function evolution for 5000 epochs:**
+<img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/loss_5000epochs.png">
+
+**- Our precision function evolution for 5000 epochs:**
+<img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/precision.png">
+
+**- Our recall function evolution for 5000 epochs:**
+<img src ="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/recall.png">
 
 Draw conclusions, **interpret** the results and make recommandations to your client for your future of the work.
 It is totally fine to have results that are not as good as initially expected. Be honest and analyse why you did not manage to reach the objectives.
