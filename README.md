@@ -1,27 +1,19 @@
-# Name of my project
+# Kobotik Cuisine
 
-**Description:** Template for deliverables of robotics projects at Bordeaux-INP.
-Replace this description by a sentence summarizing your project.
+**Description:** Building a neural network to identify different ingredients. 
 
 <img src="https://via.placeholder.com/900x300.png?text=Video+illustrating+your+project,+or+picture"> 
 
 [📖 User documentation](docs/user) • [👨‍💻 Developer documentation](docs/developer) • [📈 Project report](docs/report) • [📚 Bibliography](docs/bibliography) • [⚠️ Risk Analysis](docs/risk)
   
 ## 📄 This project in short
-This paragraph is for the visitors who fly over your work and cannot read the whole documentation. They dislike long texts.
-
-Be **concise** and **convincing** to show the potential of your project. Be **honest** and list the limitations.  
-
-* The context and the intented users
-* The problems solved by your projects
-* How it solves them
+The goal of this project is to build a neural network to identify different ingredients such as lettuce, carrots or pasta. In this repository you will find the neural network and the code to control the cobot we used (uFactory xArm series 5). The cobot must be able to perform a helicoidal rotation in order to take pictures of the ingredients with a realsense camera.
+The neural network will then be used with the cobot to prepare a salad.  
 
 ## 🚀 Quickstart (if relevant)
 
-* **Install instructions**: List of software/hardware dependencies, and instructions to install them if relevant
-* **Launch instructions**: Few lines of code to launch the main feature of your project
-
-If this is written in user or dev docs, provide links.
+* **Install instructions**: [👨‍💻 Developer documentation](docs/developer)
+* **Launch instructions**: [👨‍💻 Developer documentation](docs/developer)
 
 ## 🔍 About this project
 
