@@ -42,7 +42,8 @@ A thorough understanding of the developed AI model.
     python -m ipykernel install --user --name=tfod
 
 ### Step 5. Collect images 
-> Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment as shown below ( screen )
+> Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment as shown below:
+> ! (https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/398cc644f5f4b9daebb2405e452fd8b1e6eba7b8/assets/img/step5.png)
 
 
 ### Step 6.  Create Train et Test folders
