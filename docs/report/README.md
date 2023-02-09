@@ -49,18 +49,20 @@ We obtain a http://localhost:6006/ link in the terminal which allows access to t
 > **Our recall function evolution for 5000 epochs:**
 <img src ="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/12f2ad7fe01661eeaa5025e495b01d9d021f2a8b/assets/img/recall.png">
 
+## Discussion of results
+
 **_These values are good and reflect the performance of our model_.**
 To concretely **visualize the results** of our algorithm, we show the detections made on different ingredient images (in this case, we have the two classes "lettuce"(_laitue_) and "pasta"(_pates_)).
 
-> Pour une image centrée et donc relativement facile de pates: 
+> For a centered and therefore relatively easy pasta image (initial image and image after 5000 epochs) :
 
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/pates_centree.png">
 
-> Pour une image décalée et donc relativement difficile de pates:
+> For an offset and therefore relatively difficult pasta image (evolution of precision percentage between 2000 and 5000 epochs):
 
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/pates_difficile.png">
 
-> Pour une image de laitue et de pates: 
+> For a lettuce and pasta image (initial image and image after 5000 epochs):
 
 <img src="https://github.com/Yoan-GitHub/Kobotik-Cuisine/blob/5a5a723a9b11657454d33f55448332975da8a487/assets/img/eval_pic.png">
 
