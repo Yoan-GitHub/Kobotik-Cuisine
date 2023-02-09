@@ -33,7 +33,7 @@ The the diagram below summarizes our approach :
 
 ## 📈 Analysis of results
 
-By executing the following command in Tensorflow/workspace/models/my_ssd_mobnet/eval :
+By executing the following command in _**Tensorflow/workspace/models/my_ssd_mobnet/eval**_ :
 
     tensorboard --logdir=.
 
